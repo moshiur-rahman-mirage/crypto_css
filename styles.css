@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hero-section {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.offer-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.offer-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.offer-form select, .offer-form input, .offer-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.offer-form button {
+    background-color: #00c4cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.why-zappr {
+    margin-top: 20px;
+}
+
+.features-section {
+    background-color: #fff200;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+.feature-icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.secured {
+    background: url('secured-icon.png') no-repeat center;
+}
+
+.newbie {
+    background: url('newbie-icon.png') no-repeat center;
+}
+
+.payment {
+    background: url('payment-icon.png') no-repeat center;
+}
+
+.buy-sell-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.buy, .sell {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.offer {
+    margin-bottom: 10px;
+}
+
+.signup-section {
+    background-color: #d4c4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 5px;
+}
